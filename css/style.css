@@ -1,11 +1,11 @@
 /* Google Fonts - Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 #service {
   padding-top: 3rem;
@@ -14,7 +14,6 @@
 }
 #service .kartu {
   max-width: 1400px;
-
   padding: 60px 0;
 }
 #service .slide-container {
@@ -30,6 +29,14 @@
   background: #249ce2;
   border-radius: 50%;
 }
+
+#service .swiper-button-next {
+  transform: translateX(-340%);
+}
+#service .swiper-button-prev {
+  transform: translateX(350%);
+}
+
 #service .swiper-navBtn::before,
 #service .swiper-navBtn::after {
   font-size: 24px;
@@ -116,7 +123,7 @@
 }
 
 #service .card-title {
-  font-size: 50px;
+  font-size: 41px;
   padding-left: 0.5rem;
 
   font-weight: bold;
@@ -133,14 +140,23 @@
 }
 
 #service .card-image {
-  height: 70%;
-  width: 100%;
+  padding: 5px;
+  object-fit: cover;
+  height: 300px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #service .card-description {
   padding-left: 1rem;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bolder;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
+}
+
+#service .text-title1 {
+  font-weight: 700;
+  font-size: 50px;
 }
